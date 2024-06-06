@@ -9,14 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 30){
             Text("这是一个测试")
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+                .font(.largeTitle)
             Text("Hello, world!")
+                .font(.title2)
         }
-        .padding()
     }
 }
 
